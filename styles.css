@@ -1,0 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap");
+
+.hindi-content {
+	font-family: "Noto Sans", sans-serif;
+}
+p {
+	color: #001f3f;
+}

@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Laboratory Services</title>
+    <!-- Favicons -->
+		<link
+			rel="apple-touch-icon"
+			sizes="180x180"
+			href="/lmh/favicon_io/apple-touch-icon.png" />
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="/lmh/favicon_io/favicon-32x32.png" />
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="16x16"
+			href="/lmh/favicon_io/favicon-16x16.png" />
+		<link
+			rel="shortcut icon"
+			type="image/x-icon"
+			href="/lmh/favicon_io/favicon.ico" />
+		<link rel="manifest" href="assets/img/favicons/manifest.json" />
+		<meta
+			name="msapplication-TileImage"
+			content="/lmh/favicon_io/android-chrome-192x192.png" />
+		<meta name="theme-color" content="#ffffff" />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Add any additional CSS or font imports here -->
+    <style>
+      body {
+        background-color: #2596be;
+        font-family: "Arial", sans-serif;
+        font-weight: bold;
+      }
+
+      .container {
+        background-color: #d1f0f8;
+        border-radius: 15px;
+        padding: 20px;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
+        color: #333;
+      }
+
+      .header {
+        color: #d1f0f8;
+        text-shadow: 1px 1px 2px rgba(51, 102, 153, 1);
+      }
+
+      table {
+        width: 100%;
+        margin-bottom: 20px;
+        border-collapse: collapse;
+      }
+
+      table,
+      th,
+      td {
+        border: 1px solid #333;
+      }
+
+      th,
+      td {
+        padding: 10px;
+        text-align: left;
+        background-color: aliceblue;
+      }
+
+      th {
+        background-color: lightblue;
+      }
+
+      .package-section {
+        margin-top: 30px;
+        background-color: #d1f0f8;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+      }
+
+      .package-list {
+        list-style-type: none;
+        padding: 0;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        gap: 20px;
+      }
+
+      .package-list li {
+        background-color: ivory;
+        padding: 15px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s;
+      }
+
+      .package-list li:hover {
+        transform: scale(1.05);
+      }
+
+      .strike-through {
+        text-decoration: line-through;
+      }
+
+      h2 {
+        color: #007bff;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Header Section -->
+    <header class="header font-weight-bold text-center py-5">
+      <h1>Laboratory Services</h1>
+      <p>State-of-the-Art Facilities for Accurate Diagnostics</p>
+    </header>
+
+    <!-- Main Content Section -->
+    <section class="container my-4">
+      <h2>Our Laboratory</h2>
+      <p>
+        At Lalita Memorial Hospital, we take pride in having not only the best
+        doctors to provide medical care but also a state-of-the-art laboratory
+        facility that supports our experts. Our laboratory is equipped with
+        modern equipment, and we perform calibrations, rechecking, and
+        standardizing of machines regularly to ensure accurate and reliable
+        results.
+      </p>
+
+      <h3>Lab Tests</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Category</th>
+            <th>Test</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>BLOOD</td>
+            <td>
+              Complete Haemogram, Blood Urea, Blood Sugar, PBF for MP, LFT, KFT,
+              Widal Test, Montax Test
+            </td>
+          </tr>
+          <tr>
+            <td>STOOL</td>
+            <td>Examination for Ova, Cyst, Occult Blood</td>
+          </tr>
+          <tr>
+            <td>SPUTUM</td>
+            <td>AFB, Microscopic Examination, Cytological Examination</td>
+          </tr>
+          <tr>
+            <td>URINE</td>
+            <td>R/E Microscopic Examination Albumin, Sugar, Proteins</td>
+          </tr>
+          <tr>
+            <td>HORMONES</td>
+            <td>
+              Thyroid-T3, T4 TSH, Anti-thyroid antibodies, Ovaries-
+              Progesterone, Estrogen, E2, P2, Testis-Testosterone
+            </td>
+          </tr>
+          <tr>
+            <td>PITUITARY</td>
+            <td>FSH, LH</td>
+          </tr>
+          <tr>
+            <td>CYTOLOGY</td>
+            <td>Chromosomal Study</td>
+          </tr>
+          <tr>
+            <td>RADIOLOGY</td>
+            <td>Imaging Equipments, HSG, IVP, Myelograms, Barium Meals</td>
+          </tr>
+        </tbody>
+      </table>
+
+<!-- Package Section -->
+<div class="package-section">
+  <h2 class="text-center mb-4">Featured Packages</h2>
+  <ul class="package-list">
+    <li>
+      <strong class="text-primary">General Health Package</strong><br />
+      Includes Heamogram, Random Blood Sugar, Lipid Profile, KFT, Urine
+      R/M, ECG, Chest X-Ray. <br />
+      <span class="text-danger strike-through">Rs. 2999</span> <span class="text-success">Rs. 1599</span>
+    </li>
+    <li>
+      <strong class="text-primary">Complete Food Allergy Panel</strong><br />
+      Includes Allergy Food Panel IgE-For Acute Reaction (Veg &
+      Non-Veg). <br />
+      <span class="text-danger strike-through">Rs. 4999</span> <span class="text-success">Rs. 3499</span>
+    </li>
+    <li>
+      <strong class="text-primary">Dengue Screening Test</strong><br />
+      - NS1 Antigen Elisa: <span class="text-success">Rs. 600</span><br />
+      - Dengue Profile Elisa: <span class="text-success">Rs. 1800</span><br />
+      - Dengue IgM Antibody Elisa: <span class="text-success">Rs. 600</span>
+    </li>
+    <li>
+      <strong class="text-primary">Full Body Checkup</strong><br />
+      Includes Complete Blood Count, Liver Function Test, Blood Sugar,
+      Urine Complete Analysis, Kidney Function Test, Lipid Profile, HbA1C,
+      Thyroid Function Test, Vitamin D, 25 Hydroxy, Vitamin B12. <br />
+      <span class="text-danger strike-through">Rs. 2999</span> <span class="text-success">Rs. 1499</span>
+    </li>
+    <li>
+      <strong class="text-primary">Cardiac Wellness Package</strong><br />
+      Includes Heamogram, Random Blood Sugar, Lipid Profile, KFT, Urine
+      R/M, ECG, Chest X-Ray, 2D ECHO. <br />
+      <span class="text-danger strike-through">Rs. 5999</span> <span class="text-success">Rs. 2999</span>
+    </li>
+  </ul>
+  <p class="text-center">
+    Contact our Laboratory Department to learn more about our packages and
+    to schedule your tests.
+  </p>
+</div>
+
+    </section>
+
+    <!-- Bootstrap JS (optional) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <div class="container-fluid  text-white text-center py-2">
+      <div class="container px-4">
+          <p class="mb-0">
+              <strong>Hospital:</strong> +91-9466041913 | +91-8851893791
+              <strong>| Address:</strong> Opp. Hanuman Mandir Bada Talaab, Rewari
+          </p>
+      </div>
+  </div>
+  </div>
+  <footer class="text-dark-emphasis text-center py-3">
+      <p>&copy; 2023 Lalita Memorial Pvt. Ltd., All rights reserved.</p>
+  </footer>
+  </body>
+</html>
